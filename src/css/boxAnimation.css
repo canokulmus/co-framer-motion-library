@@ -1,0 +1,39 @@
+
+
+input {
+    font-family: input-mono, monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.box {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  pointer-events: none;
+
+  @apply border-4 border-pink;
+}
+  
+
+.input-1 {
+    @apply accent-pink;
+}
+  
+
+label {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+label code {
+  width: 100px;
+}
+
+input[type="number"] {
+  border: 0;
+  margin-left: 10px;
+  text-align: center;
+  @apply bg-transparent text-white;
+}
