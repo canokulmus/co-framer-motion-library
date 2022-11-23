@@ -13,6 +13,7 @@ input {
   pointer-events: none;
 
   @apply border-4 border-pink;
+
 }
   
 
